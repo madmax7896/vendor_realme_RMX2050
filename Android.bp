@@ -59,7 +59,7 @@ android_app_import {
 }
 
 android_app_import {
-	name: "atfwd",
+        name: "atfwd",
 	owner: "realme",
 	apk: "proprietary/system_ext/app/atfwd/atfwd.apk",
 	certificate: "platform",
@@ -67,6 +67,17 @@ android_app_import {
 		enabled: false,
 	},
 	system_ext_specific: true,
+}
+
+android_app_import {
+        name: "ims",
+        owner: "realme",
+        apk: "proprietary/priv-app/ims/ims.apk",
+        certificate: "platform",
+        dex_preopt: {
+                enabled: false,
+        },
+        privileged: true,
 }
 
 android_app_import {

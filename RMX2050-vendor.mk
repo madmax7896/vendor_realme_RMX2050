@@ -227,6 +227,7 @@ PRODUCT_PACKAGES += \
     QtiTelephonyService \
     SoterService \
     atfwd \
+    ims \
     imssettings \
     uceShimService \
     WfdService \
